@@ -23,6 +23,23 @@ public class QuestionNumberOne {
 
 		}
 
+		System.out.println("*************If ELSE STATEMENT********************");
+
+		String colorOption2 = "blue";
+
+		if (colorOption2 == "red") {
+			System.out.println("Red Color");
+
+		} else if (colorOption2 == "orange") {
+			System.out.println("Orange Color");
+
+		} else if (colorOption == "black") {
+			System.out.println("Black Color");
+
+		} else {
+			System.out.println("Wrong color, not available");
+		}
+
 	}
 }
 /**
