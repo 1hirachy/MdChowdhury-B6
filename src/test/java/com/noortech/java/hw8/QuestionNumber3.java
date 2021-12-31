@@ -7,6 +7,7 @@ public class QuestionNumber3 {
 			int average = totalNumber / n;
 			
 		} 
-		System.out.println(average);
+		System.out.println("average");
 	}
 }
+
