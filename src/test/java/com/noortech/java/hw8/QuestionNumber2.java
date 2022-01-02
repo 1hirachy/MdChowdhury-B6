@@ -1,6 +1,6 @@
 package com.noortech.java.hw8;
 
-public class Day8QuestionNumber2 {
+public class QuestionNumber2 {
 	public static void main(String[] args) {
 
 		for (int windspeed = 20; windspeed <= 200; windspeed++) {
@@ -16,10 +16,9 @@ public class Day8QuestionNumber2 {
 				System.out.println(windspeed + " : Catagory 4");
 			} else if (windspeed >= 165 && windspeed <= 194) {
 				System.out.println(windspeed + " : Catagory 5");
-			}else {
+			} else {
 				System.out.println(windspeed + ": No Hurricane");
 			}
 		}
 	}
 }
-
