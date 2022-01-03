@@ -3,24 +3,24 @@ package com.noorteck.java.hw10;
 public class QuestionNumberOne {
 
 	public static void main(String[] args) {
-		calculateMethod(4.00, 3.99, '*');
-		calculateMethod(3.99, 4.69, '&');
+		calculateMethod(4.00, 3.99, '/');
+
 	}
 
 	public static void calculateMethod(double numOne, double numTwo, char mathOperationSign) {
 
 		switch (mathOperationSign) { // used char variable to create switch statement
 		case '+':
-			System.out.println(numOne + numTwo);
+			System.out.println(numOne + " " + mathOperationSign + " " + numTwo + " = " + (numOne + numTwo));
 			break;
 		case '-':
-			System.out.println(numOne - numTwo);
+			System.out.println(numOne + " " + mathOperationSign + " " + numTwo + " = " + (numOne - numTwo));
 			break;
 		case '/':
-			System.out.println(numOne / numTwo);
+			System.out.println(numOne + " " + mathOperationSign + " " + numTwo + " = " + (numOne / numTwo));
 			break;
 		case '*':
-			System.out.println("4.00 * 3.99 = " + numOne * numTwo);
+			System.out.println(numOne + " " + mathOperationSign + " " + numTwo + " = " + (numOne * numTwo));
 			break;
 		default:
 			System.out.println("Error Message");

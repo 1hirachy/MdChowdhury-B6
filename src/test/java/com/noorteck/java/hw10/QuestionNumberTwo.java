@@ -2,8 +2,9 @@ package com.noorteck.java.hw10;
 
 public class QuestionNumberTwo {
 	public static void main(String[] args) {
+
 		getGenderMethod('m');
-		getGenderMethod('S');
+
 	}
 
 	public static void getGenderMethod(char gender) {
