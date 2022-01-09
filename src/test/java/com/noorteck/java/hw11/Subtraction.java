@@ -3,16 +3,18 @@ package com.noorteck.java.hw11;
 public class Subtraction {
 
 	public static void main(String[] args) {
-		int diffTotal = difference21(10);
-		System.out.println(diffTotal);
-	}
+		
+	
+	int diffTotal = difference21(30);
+	System.out.println(diffTotal);
+}
 
 	public static int difference21(int number) {
 		int result = 0;
-		if (number < 21) { 				// if number is equal to 21 then the value will be 0
+		if (number < 21) { // if number is equal to 21 then the value will be 0
 			result = (number - 21);
-		} else if (number > 21) { 			// if the number is greater than 21 than the result value will double
-			result = ((21 - number) * 2);	// unable to create the logic
+		} else if (number > 21) { // if the number is greater than 21 than the result value will double
+			result = ((number - 21) * 2); // unable to create the logic
 
 		} else {
 			result = 0;
