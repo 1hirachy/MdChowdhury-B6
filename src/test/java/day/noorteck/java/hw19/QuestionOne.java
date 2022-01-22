@@ -8,7 +8,8 @@ public class QuestionOne {
 		boolean result2 = isEqual("testing", "testing");
 		boolean result3 = isEqual("java", "java");
 		boolean result4 = isEqual("java", "java programming");
-
+		
+		
 		System.out.println(result);
 		System.out.println(result2);
 		System.out.println(result3);
