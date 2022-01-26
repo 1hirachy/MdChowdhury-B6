@@ -2,10 +2,29 @@ package com.noorteck.java.day20;
 
 public class QuestionSixteen {
 
+	public static void main(String[] args) {
+		QuestionSixteen obj = new QuestionSixteen();
+		
+		String result = obj.concatString("Java", "wesome");
+		
+		
+		
+		System.out.println(result);
+	}
 	String concatString(String strOne, String strTwo) {
 		String result = "";
-		if (strOne.lastIndexOf(0) == strTwo.)//struggling to put logic here
-		return result;
+		
+		int strOneEndsAt= strOne.length()-1;
+		int strOneIndex = strOne.charAt(strOneEndsAt);
+		int strTwoBeginAt = strTwo.indexOf(0);
+		
+		if(strOneIndex == strTwoBeginAt) {
+			strOne.concat(strTwo.substring(1));
+		}else {
+			strOne.concat(strTwo);
+		}
+		
+			return result;
 	}
 }
 /**

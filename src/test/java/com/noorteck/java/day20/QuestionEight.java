@@ -3,20 +3,17 @@ package com.noorteck.java.day20;
 public class QuestionEight {
 
 	public static void main(String[] args) {
-		char result = getCharacter("java training", 5);
+		char result = getCharacter("java training", 22);
 		
 		System.out.println(result);
 	}
 	public static char getCharacter(String strOne, int indexNum) {
 		char result = ' ';
-		//result = strOne.charAt(indexNum);
-		switch("java training") {
-		case "java training":
-			result = strOne.charAt(indexNum);
-			break;
-		case "java training ":
-			
-		result = (strOne.charAt('?'));
+		
+		if(strOne.length()<= indexNum) {
+			result = '?';
+		}else {
+			result = (strOne.charAt(indexNum));
 		
 		}
 		
