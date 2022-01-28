@@ -1,4 +1,4 @@
-package com.noorteck.java.day21;
+package com.noorteck.java.day22;
 
 public class HomeworkQ1 {
 
