@@ -16,9 +16,22 @@ public class QuestionOne {
 		System.out.println(result4);
 	}
 
-	static boolean isEqual(String strOne, String strTwo) { // created is equal method with given method modifier type,
-															// return type and parameter
-
+	/**
+	Write a method that takes two String parameter and checks if the two strings are equal or not. If they are equal return true, otherwise return false
+	Access Modifier: Default
+	Non-Access Modifier: static
+	Return Type: boolean
+	Method Name: isEqual
+	Parameter1: String strOne
+	Parameter2: String strTwo
+	Test Data:
+	isEqual (‚Äúsdet‚Äù, ‚ÄúSDET‚Äù) ----- FALSE
+	isEqual (‚Äútesting‚Äù, ‚Äútesting‚Äù) ----- TRUE
+	isEqual (‚Äújava‚Äù, ‚Äújava‚Äù) ----- TRUE
+	isEqual (‚Äújava‚Äù, ‚Äújava Programming‚Äù) ----- FALSE
+	*/
+	static boolean isEqual(String strOne, String strTwo) { 
+								
 		boolean result = false;
 
 		if (strOne.equals(strTwo)) {
@@ -28,17 +41,3 @@ public class QuestionOne {
 		return result;
 	}
 }
-/**
-Write a method that takes two String parameter and checks if the two strings are equal or not. If they are equal return true, otherwise return false
-Access Modifier: Default
-Non-Access Modifier: static
-Return Type: boolean
-Method Name: isEqual
-Parameter1: String strOne
-Parameter2: String strTwo
-Test Data:
-isEqual (ìsdetî, ìSDETî) ----- FALSE
-isEqual (ìtestingî, ìtestingî) ----- TRUE
-isEqual (ìjavaî, ìjavaî) ----- TRUE
-isEqual (ìjavaî, ìjava Programmingî) ----- FALSE
-*/
